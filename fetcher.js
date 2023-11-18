@@ -5,7 +5,7 @@ const fs = require('fs');
 const url = process.argv[2];
 const filePath = process.argv[3];
 
-function that takes in a url, filepath and callback
+// function that takes in a url, filepath and callback
 function pageDownloader(url, filePath, callback) {
   // Make an HTTP request to the URL
   request(url, (error, response, body) => {
